@@ -1,0 +1,97 @@
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.whole-game {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.player-section {
+  margin-top: 10%;
+  display: flex;
+  flex direction: column;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player1 {
+  height: 45px;
+  width: 45px;
+}
+
+.player2 {
+  height: 60px;
+  width: 45px;
+}
+
+.game-section {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-board {
+  margin-top: 25%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+.grid-item {
+  height: 75px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box1 {
+  border-bottom: solid black 3px;
+  border-right: solid black 3px
+}
+
+#box2 {
+  border-bottom: solid black 3px;
+  border-right: solid black 3px;
+}
+
+#box3 {
+  border-bottom: solid black 3px;
+}
+
+#box4 {
+  border-bottom: solid black 3px;
+  border-right: solid black 3px
+}
+
+#box5 {
+  border-bottom: solid black 3px;
+  border-right: solid black 3px
+}
+
+#box6 {
+  border-bottom: solid black 3px;
+}
+
+#box7 {
+  border-right: solid black 3px
+}
+
+#box8 {
+  border-right: solid black 3px
+}
