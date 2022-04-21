@@ -2,30 +2,32 @@
   <html lang="en">
     <head>
       <title>Tic-Tac-Toe</title>
-      <link href="./styles.css"><link>
+      <link rel="stylesheet" href="./styles.css"><link>
     </head>
     <body>
-      <section class="player-section">
-        <img class="Player1" src="./assets/Sandiego.png" alt="Carmen Sandiego's Hat">
-        <h1>wins!</h1>
-      </section>
-      <section class="game-section">
-        <h2>It's Player's Turn!</h2>
-        <div class="game-board">
-          <div class="grid-item">1</div>
-          <div class="grid-item">2</div>
-          <div class="grid-item">3</div>
-          <div class="grid-item">4</div>
-          <div class="grid-item">5</div>
-          <div class="grid-item">6</div>
-          <div class="grid-item">7</div>
-          <div class="grid-item">8</div>
-          <div class="grid-item">9</div>
-      </section>
-      <section class="player-section">
-        <img class="Player2" src="./assets/Waldo.jpeg" alt="Waldo's red and white striped clothes and glasses">
-        <h1>wins!</h1>
-      </section>
+      <container class="whole-game">
+        <section class="player-section">
+          <img class="player1" src="./assets/Sandiego.png" alt="Carmen Sandiego's Hat">
+          <h1>wins!</h1>
+        </section>
+        <section class="game-section">
+          <h2>It's Player's Turn!</h2>
+          <div class="game-board" id="game-board">
+            <div class="grid-item" id="box1">Box 1</div>
+            <div class="grid-item" id="box2">Box 2</div>
+            <div class="grid-item" id="box3">Box 3</div>
+            <div class="grid-item" id="box4">Box 4</div>
+            <div class="grid-item" id="box5">Box 5</div>
+            <div class="grid-item" id="box6">Box 6</div>
+            <div class="grid-item" id="box7">Box 7</div>
+            <div class="grid-item" id="box8">Box 8</div>
+            <div class="grid-item" id="box9">Box 9</div>
+        </section>
+        <section class="player-section">
+          <img class="player2" src="./assets/Waldo.jpeg" alt="Waldo's red and white striped clothes and glasses">
+          <h1>wins!</h1>
+        </section>
+      </container>
     </body>
     <script type="text/javascript" src="player.js"></script>
     <script type="text/javascript" src="game.js"></script>
