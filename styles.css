@@ -52,7 +52,7 @@ body {
   grid-template-columns: repeat(3, auto);
 }
 
-.grid-item {
+.grid div {
   height: 75px;
   width: 75px;
   display: flex;
