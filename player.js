@@ -6,9 +6,4 @@ class Player {
     this.active = true;
   }
 
-  increaseWins() {
-    if () {
-      this.wins === this.wins + 1;
-    }
-  }
 }
