@@ -45,7 +45,7 @@ body {
   align-items: center;
 }
 
-.game-board {
+.grid {
   margin-top: 25%;
   display: grid;
   justify-content: center;
