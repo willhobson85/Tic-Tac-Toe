@@ -1,7 +1,7 @@
 class Player {
-  constructor(name, token, wins, active) {
+  constructor(name, token) {
     this.name = name;
-    this.token =
+    this.token = undefined;
     this.wins = 0;
     this.active = true;
   }
