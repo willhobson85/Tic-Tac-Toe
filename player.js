@@ -6,7 +6,11 @@ class Player {
     this.active = true;
   }
 
-  increaseWins() {
-    this.wins = this.wins + 1;
+  increaseWins(draw) {
+    if (draw === true) {
+      this.wins = this.wins + 0;
+    } else {
+      this.wins = this.wins + 1;
+    }
   }
 }
