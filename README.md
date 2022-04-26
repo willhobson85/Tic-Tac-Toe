@@ -1,4 +1,4 @@
-# IdeaBox
+# Tic-Tac-Toe
 
 ## Table of Contents
 
@@ -32,6 +32,7 @@
 ## Illustrations
 
   ![Tic-Tac-Toe](https://user-images.githubusercontent.com/99286590/165381872-8b91d199-dbb6-487a-a6e9-c9d523b71e0d.png)
+  ![Tic-Tac-Toe](https://user-images.githubusercontent.com/99286590/165385831-27b720b2-7877-4c2e-9046-716615369695.png)
 
 ## Set Up
 
