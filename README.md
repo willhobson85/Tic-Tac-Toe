@@ -36,7 +36,7 @@
 
 ## Set Up
 
-  1. Fork the repository found here: https://github.com/willhobson85/Ideabox
+  1. Fork the repository found here: https://github.com/willhobson85/Tic-Tac-Toe
   2. Clone down your new, forked repo. While cloning, name it what you want your project to be named. git clone <url> <newNameYouWantItToHave>
   3. In your terminal, navigate to your project repo.
   4. View the project in the browser by running `open index.html` in your terminal.
