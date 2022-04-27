@@ -57,7 +57,7 @@
   - Project spec & rubric can be found [here](https://frontend.turing.edu/projects/module-1/tic-tac-toe-solo-v2.html)
 
 ## Published link
-  - You can view the website [here](https://github.com/willhobson85/Tic-Tac-Toe)
+  - You can view the website [here](https://willhobson85.github.io/Tic-Tac-Toe/)
 
 ## What I Learned
   - In this project, I used class to class interactions to create new games.
