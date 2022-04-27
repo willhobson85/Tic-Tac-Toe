@@ -38,14 +38,14 @@ function makeMove(){
       turnNumber = turnNumber + 1;
       tile.classList.add('selected');
       thisRound.gameGrid[event.target.id] = thisRound.player1.token;
-      tile.innerHTML = '<img class="player1" src="./assets/sandiego.png" alt="Carmen Sandiego\'s Hat">'
+      tile.innerHTML = '<img class="player1" src="./Assets/sandiego.png" alt="Carmen Sandiego\'s Hat">'
       currentPlayer = thisRound.player2;
       results.innerText = `It's Waldo's Turn!`;
     } else if (currentPlayer === thisRound.player2 ) {
       turnNumber = turnNumber + 1;
       tile.classList.add('selected');
       thisRound.gameGrid[event.target.id] = thisRound.player2.token;
-      tile.innerHTML = '<img class="player2" src="./assets/waldo.jpeg" alt="Waldo\'s red and white striped clothes and glasses">'
+      tile.innerHTML = '<img class="player2" src="./Assets/waldo.jpeg" alt="Waldo\'s red and white striped clothes and glasses">'
       currentPlayer = thisRound.player1;
       results.innerText = `It's Carmen's Turn!`;
     }
