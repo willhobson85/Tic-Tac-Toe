@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- Introduction
-- Technologies
-- Features
+- [Introduction](#Introduction)
+- [Technologies](#Technologies)
+- [Features](#Features)
 - [Illustrations](#illustrations)
-- Set Up
-- Sources
-- Contributors
-- Project Spec & Ruberic
-- Published Link
-- What I Learned
+- [Set Up](#set up)
+- [Sources](#sources)
+- [Creator](#Creator)
+- [Project Spec & Ruberic](#Project Spec & Ruberic)
+- [Published Link](#Published Link)
+- [What I Learned](#What I Learned)
 
 ## Introduction
 
